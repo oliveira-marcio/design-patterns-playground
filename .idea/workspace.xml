@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5c40cc3-d73b-4eda-b951-dc6f32f0be46" name="Default Changelist" comment="" />
+    <list default="true" id="b5c40cc3-d73b-4eda-b951-dc6f32f0be46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/decorator/DefenseArmoredSoldier.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/MagicalArmoredSoldier.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/PowerArmoredSoldier.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/RegularSoldier.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Soldier.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/SoldierArmorDecorator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/META-INF/Design Patterns.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design Patterns/META-INF/Design Patterns.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/observer/MainKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design Patterns/observer/MainKt$main$1.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +26,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YtTIzyvMDxAIuLZwz5sdGuXyNb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,13 +38,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="strategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (1)">
+  <component name="RunManager" selected="Kotlin.MainKt (2)">
     <configuration name="MainKt (1)" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Design Patterns" />
       <option name="VM_PARAMETERS" />
@@ -39,6 +54,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="observer.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (2)" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Design Patterns" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="decorator.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -59,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
@@ -92,25 +121,33 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="482" y="63" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877/-621.-1057.2560.989@0.23.1440.877" timestamp="1583769708821" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1583778467979">
+    <state x="100" y="123" width="1240" height="609" key="DiffContextDialog" timestamp="1583867436751">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state x="100" y="123" width="1240" height="609" key="DiffContextDialog/0.23.1440.809@0.23.1440.809" timestamp="1583867436751" />
+    <state width="1398" height="170" key="GridCell.Tab.0.bottom" timestamp="1583859915323">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.809/-621.-1057.2560.1057@0.23.1440.809" timestamp="1583763800375" />
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.877/-621.-1057.2560.989@0.23.1440.877" timestamp="1583778467979" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1583778467978">
+    <state width="1398" height="170" key="GridCell.Tab.0.bottom/0.23.1440.877/-621.-1057.2560.989@0.23.1440.877" timestamp="1583859915323" />
+    <state width="1398" height="170" key="GridCell.Tab.0.center" timestamp="1583859915322">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.809/-621.-1057.2560.1057@0.23.1440.809" timestamp="1583763800375" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.877/-621.-1057.2560.989@0.23.1440.877" timestamp="1583778467978" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1583778467978">
+    <state width="1398" height="170" key="GridCell.Tab.0.center/0.23.1440.877/-621.-1057.2560.989@0.23.1440.877" timestamp="1583859915322" />
+    <state width="1398" height="170" key="GridCell.Tab.0.left" timestamp="1583859915321">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.809/-621.-1057.2560.1057@0.23.1440.809" timestamp="1583763800375" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.877/-621.-1057.2560.989@0.23.1440.877" timestamp="1583778467978" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1583778467979">
+    <state width="1398" height="170" key="GridCell.Tab.0.left/0.23.1440.877/-621.-1057.2560.989@0.23.1440.877" timestamp="1583859915321" />
+    <state width="1398" height="170" key="GridCell.Tab.0.right" timestamp="1583859915323">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.809/-621.-1057.2560.1057@0.23.1440.809" timestamp="1583763800375" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.877/-621.-1057.2560.989@0.23.1440.877" timestamp="1583778467979" />
+    <state width="1398" height="170" key="GridCell.Tab.0.right/0.23.1440.877/-621.-1057.2560.989@0.23.1440.877" timestamp="1583859915323" />
+    <state x="522" y="145" key="RollbackChangesDialog" timestamp="1583867377588">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state x="522" y="145" key="RollbackChangesDialog/0.23.1440.809@0.23.1440.809" timestamp="1583867377588" />
   </component>
 </project>
